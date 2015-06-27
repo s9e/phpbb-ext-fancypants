@@ -1,0 +1,19 @@
+{
+	"name": "s9e/fancypants",
+	"type": "phpbb-extension",
+	"description": "Provides enhanced typography, aka fancy Unicode symbols such as fancy “quotation marks”, symbols ©™, dashes – and elipsis…",
+	"homepage": "https://github.com/s9e/phpbb-ext-fancypants/",
+	"version": "1.0",
+	"keywords": ["phpbb","typography"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/fancypants",
+		"soft-require": {
+			"phpbb/phpbb": "3.2.*"
+		}
+	}
+}

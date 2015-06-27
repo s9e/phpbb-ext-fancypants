@@ -1,0 +1,5 @@
+services:
+  s9e.fancypants.listener:
+    class: s9e\fancypants\listener
+    tags:
+      - { name: event.listener }
